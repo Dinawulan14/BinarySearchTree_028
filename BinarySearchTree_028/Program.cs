@@ -27,8 +27,18 @@ namespace BinarySearchTree_028
 
   
 
-        
-    internal class Program
+    class Program
+    {
+        public Node ROOT;
+        public Program()
+        {
+            ROOT = null; /* Initializing ROOt to null*/
+        }
+        public void search(string element, ref Node parents, ref Node currentNode)
+        {
+
+        }
+    }
     {
         static void Main(string[] args)
         {
