@@ -37,7 +37,7 @@ namespace BinarySearchTree_028
             /*Thisfunction searces the currentNode of the specified Node as well as the current Node of its parents*/
             currentNode = ROOT;
             parents = null;
-            while ((currentNode != null) && (currentNode.info != element))
+            while ((currentNode != null) && (currentNode.info != element)) 
             {
                 parents = currentNode;
                 if (string.Compare(element, currentNode.info) > 0)
