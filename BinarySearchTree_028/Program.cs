@@ -55,7 +55,7 @@ namespace BinarySearchTree_028
                 Console.WriteLine("duplicate words not allowed");
                 return;
             }
-            else
+            else 
             {
                 tmp = new Node(element, null, null);
                 if (parent == null)
