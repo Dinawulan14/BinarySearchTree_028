@@ -55,7 +55,7 @@ namespace BinarySearchTree_028
                 Console.WriteLine("duplicate words not allowed");
                 return;
             }
-            else 
+            else
             {
                 tmp = new Node(element, null, null);
                 if (parent == null)
@@ -83,7 +83,19 @@ namespace BinarySearchTree_028
                 preorder(ptr.rightchild);
             }
         }
-        
+        public void inorder(Node ptr)
+        {
+            if (ROOT == null)
+            {
+                Console.WriteLine("Tree is empty");
+                return;
+            }
+            if (ptr != null)
+            {
+                Console.WriteLine(ptr.info + "");
+                preorder(ptr.Leftchild);
+            }
+        }
 
     }
 }
