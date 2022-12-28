@@ -93,9 +93,23 @@ namespace BinarySearchTree_028
             if (ptr != null)
             {
                 Console.WriteLine(ptr.info + "");
-                preorder(ptr.Leftchild);
+                inorder(ptr.Leftchild);
             }
         }
+        public void postorder(Node ptr)
+        {
+            if (ROOT == null)
+            {
+                Console.WriteLine("Tree is empty");
+                return;
+            }
+            if (ptr != null)
+            {
+                Console.WriteLine(ptr.info + "");
+                postorder(ptr.Leftchild);
+            }
+        }
+
 
     }
 }
