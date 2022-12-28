@@ -46,7 +46,7 @@ namespace BinarySearchTree_028
                     currentNode = currentNode.rightchild; 
             }
         }
-        public void insert(string element)
+        public void insert(string element) 
         {
             Node tap, parent = null, currentNode = null;
             search(element, ref parent, ref currentNode);
