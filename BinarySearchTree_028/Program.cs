@@ -43,7 +43,7 @@ namespace BinarySearchTree_028
                 if (string.Compare(element, currentNode.info) > 0)
                     currentNode = currentNode.Leftchild;
                 else
-                    currentNode = currentNode.rightchild;
+                    currentNode = currentNode.rightchild; 
             }
         }
         public void insert(string element)
