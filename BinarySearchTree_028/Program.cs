@@ -32,7 +32,7 @@ namespace BinarySearchTree_028
         { 
             ROOT = null; /* Initializing ROOt to null*/
         }
-        public void search(string element, ref Node parents, ref Node currentNode)
+        public void search(string element, ref Node parents, ref Node currentNode) 
         {
             /*Thisfunction searces the currentNode of the specified Node as well as the current Node of its parents*/
             currentNode = ROOT;
