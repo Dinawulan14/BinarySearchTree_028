@@ -9,7 +9,7 @@ namespace BinarySearchTree_028
 
     class Node
     {
-        public string info;
+        public string info; 
         public Node Lefchild;
         public Node rightchild;
     }
